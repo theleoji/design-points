@@ -6,7 +6,8 @@
  */
 
 module.exports = {
-  someSidebar: {
-    'Design Rules': ['introduction']
+  leftSidebar: {
+    'Design Rules': ['introduction'],
+    Services: ['service/boarding']
   }
 }

@@ -14,7 +14,7 @@ module.exports = {
         src: 'img/logo.svg'
       },
       links: [
-        { to: 'docs/introduction', label: 'Docs', position: 'left' },
+        { to: 'docs/introduction', label: 'Rules', position: 'left' },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/facebook/docusaurus',
@@ -70,7 +70,7 @@ module.exports = {
           ]
         }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`
+      copyright: `Copyright © ${new Date().getFullYear()} Leo Ji. Built with Docusaurus.`
     }
   },
   presets: [

@@ -1,0 +1,75 @@
+---
+id: boarding
+title: User information
+---
+
+import Example from '../../src/templates/example.js'
+
+These rules govern the gathering and management of user information onboarding and offboarding process for users.
+
+## General instructions
+
+Gather as little user information as is absolutely necessary for your service to function.
+
+## Specific Instructions
+
+### The ask when required rule
+
+You should ask for user information no sooner than when it is absolutely required.
+
+<Example>
+  Service A is a food delivery service where users can select from a range of
+  restaurants via a smartphone application. A‘s app asks for a ZIP code during
+  the initial sign-up process to display nearby restaurants, and only asks for
+  the user’s specific address when the first order is placed. A is in compliance
+  with this rule.
+</Example>
+
+#### Exceptions
+
+##### The more value added exception
+
+You may ask for information earlier than is absolutely required, if:
+
+1. The collection of such information is optional,
+2. The collection of such information provides significant additional value to the user, and
+3. The purposes of such information collection is clearly communicated to the user.
+
+An information collection action does not add value simply because it saves such information for later use.
+
+<Example>
+  Service B, also a food delivery service, allows users to optionally provide
+  their delivery address during the initial sign-up flow so they can find
+  opportunities to reduce delivery fees by pairing the delivery with another
+  customer’s. This is communicated clearly on the screen with an obvious option
+  to skip. B is in compliance with this exception.
+  <br />
+  <br />
+  If B does not communicate this value or allow users to skip such information collection
+  at this stage, B is in violation of this exception and of the rule.
+</Example>
+
+### The minimum validation rule
+
+Information collected should be of the general form most acceptable to all users while retaining sufficient particularity for the purposes of collection. Names, places, addresses, contact information and other freeform text entries should not enforce a structed particularity or require compliance with any predetermined validation.
+
+<Example>
+  User P lives on a newly constructed street in a rapidly-growing metropolitan
+  area. Service C, an online shopping service, uses a periodically-updated
+  database of addresses to validate all input addresses. Because P’s street was
+  not yet entered into the address database, C insists that P has entered her
+  address incorrectly. C is not in compliance with this rule.
+</Example>
+
+#### Exceptions
+
+##### The nonsensical data exception
+
+Validation may be enforced to the extent necessary to prevent the collection of nonsensical data.
+
+<Example>
+  Service C, the online shopping service, uses validation to ensure that the
+  entered text in a credit card number field is all numeric. As any non-numeric
+  entries in a credit card number would be nonsensical, C’s case falls under
+  this exception.
+</Example>
