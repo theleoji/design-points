@@ -1,11 +1,11 @@
 module.exports = {
   title: 'Publication 000: Design Rules',
   tagline: 'An opinionated set of rules regarding design practices',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://designpoints.leoji.codes',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'theleoji', // Usually your GitHub org/user name.
-  projectName: 'design-points', // Usually your repo name.
+  organizationName: 'theleoji',
+  projectName: 'design-points',
   themeConfig: {
     navbar: {
       title: 'Design Rules',
@@ -17,7 +17,7 @@ module.exports = {
         { to: 'docs/introduction', label: 'Rules', position: 'left' },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/theleoji/design-points',
           label: 'GitHub',
           position: 'right'
         }
@@ -27,32 +27,6 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/doc1'
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2'
-            }
-          ]
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus'
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus'
-            }
-          ]
-        },
-        {
           title: 'Social',
           items: [
             {
@@ -61,11 +35,11 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus'
+              href: 'https://github.com/theleoji/design-points'
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus'
+              href: 'https://twitter.com/theleoji'
             }
           ]
         }
@@ -79,7 +53,8 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/'
+          editUrl:
+            'https://github.com/theleoji/design-points/edit/master/website/'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css')
